@@ -1,0 +1,26 @@
+{
+  "name": "my_media_list_server",
+  "version": "1.0.0",
+  "description": "This is will interface with react and itunes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon ./src/app.js"
+  },
+  "author": "Johannes Paulus Nefdt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "express-middleware": "^3.4.2",
+    "helmet": "^4.4.1",
+    "isomorphic-fetch": "^3.0.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
