@@ -23,3 +23,4 @@
 #### Eg localhost:3001/movies/?name=tron 
 #### The category's mach that of the frontend site 
 #### Please note that it backend uses apples itunes api 
+#### The api uses helmet for basic safety
